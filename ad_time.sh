@@ -5,7 +5,6 @@ sed -e 's/UTC/Asia\/Shanghai/' /etc/sysconfig/clock
 echo "UTC=false" >> /etc/sysconfig/clock
 echo "ARC=false" >> /etc/sysconfig/clock
 
-
 #UTC->CST
 rm -rf /etc/localtime
 ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -45,4 +44,4 @@ echo "nameserver 61.134.1.4" >> /etc/resolv.conf
 sleep 2
 hwclock --systohc
 
-echo "调整时间完成"
+echo "调整时间完成."
