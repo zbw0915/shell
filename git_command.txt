@@ -28,3 +28,9 @@ git push origin #将当前分支推送到origin主机的对应分支。如果当
 
 git push -u origin master #上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用git push了。
 
+[yonghu@vm_666 shell]$ git merge dev
+Updating cf9c318..4e565f6
+Fast-forward
+ git_command.txt | 30 ++++++++++++++++++++++++++++++
+ 1 file changed, 30 insertions(+)
+ create mode 100644 git_command.txt
