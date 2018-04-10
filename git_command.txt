@@ -1,0 +1,30 @@
+git status         #check on which branch
+git add file       #add one file
+git commit -m ""   #description
+git log            #check the modify record
+git init           #create repostory
+git clone https://github.com/zbw0915/shell.git  #clone a repostory
+git checkout -b dev  #created and switched to a new branch 'dev'
+git checkout -b dev is  equal git branch dev , git checkout dev.
+git branch           #List all branches, and * with the current branch.
+git checkout master  #switched to branch 'master'
+git merge dev        #fast-forward
+git merge dev        #merge dev branch to current branch.
+git branch -d dev    #deleted branch dev
+
+看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+
+git push origin #将当前分支推送到origin主机的对应分支。如果当前分支只有一个追踪分支，那么主机名都可以省略。
+
+git push -u origin master #上面命令将本地的master分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用git push了。
+
