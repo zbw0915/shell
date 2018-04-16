@@ -17,12 +17,12 @@ rm -rf /etc/init.d/mysql
 
 rm -rf /sctsapp/*
 
-chkconfig mysql off
-chkconfig scts.server off
-chkconfig scts.client off
+/sbin/chkconfig mysql off
+/sbin/chkconfig scts.server off
+/sbin/chkconfig scts.client off
 
-chkconfig mysql --del
-chkconfig scts.server --del
-chkconfig scts.client --del
+/sbin/chkconfig mysql --del
+/sbin/chkconfig scts.server --del
+/sbin/chkconfig scts.client --del
 
 yum remove -y jdk1.8.0_45-1.8.0_45-fcs.x86_64
