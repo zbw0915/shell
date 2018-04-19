@@ -35,8 +35,6 @@ echo "/usr/local/python2.7.13/lib" >> /etc/ld.so.conf
 echo "Current Python has been upgraded,the version is " `python -V`
 
 
-
-
 echo "install setuptool"
 wget -c ops.roamway.com:4766/python/setuptools-39.0.1.zip#md5=75310b72ca0ab4e673bf7679f69d7a62 -P /opt/python/
 unzip /opt/python/setuptools-39.0.1.zip -d /opt/python/
